@@ -1,0 +1,5 @@
+config SHIELD_NORDIC1_LEFT
+    def_bool $(shields_list_contains,nordic1_left)
+
+config SHIELD_NORDIC1_RIGHT
+    def_bool $(shields_list_contains,nordic1_right)

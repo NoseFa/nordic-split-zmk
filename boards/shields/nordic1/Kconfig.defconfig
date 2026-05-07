@@ -1,0 +1,16 @@
+if SHIELD_NORDIC1_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Nordic_Split"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # SHIELD_NORDIC1_LEFT
+
+if SHIELD_NORDIC1_LEFT || SHIELD_NORDIC1_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif # SHIELD_NORDIC1_LEFT || SHIELD_NORDIC1_RIGHT
