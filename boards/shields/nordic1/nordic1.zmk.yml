@@ -18,8 +18,7 @@ features:
   - Hotswap
   - Wireless
 
-requires:
-  - pro_micro
+requires: [pro_micro]
 
 siblings:
   - nordic1_left
