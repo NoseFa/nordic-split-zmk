@@ -5,11 +5,7 @@
 #include "nordic1.dtsi"
 
 &default_transform {
-<<<<<<< HEAD
-    col-offset = <7>;
-=======
     col-offset = <6>;
->>>>>>> 21ad6f11671618a876f7073bb3e08edf9ecddf6f
 };
 
 &kscan {
