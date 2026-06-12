@@ -1,0 +1,16 @@
+# Nordic split software
+
+## What is Nordic split
+
+Nordic split is a split keyboard created by [NoseFa](https://github.com/NoseFa). It was created as a part of [Hack club Fallout](https://fallout.hackclub.com). The hardware side / main repo is available [Github SplitKB](https://github.com/NoseFa/splitkb).
+
+## What does this repo cover ?
+
+This repo covers the software side of this project. This was created from the [ZMK template](https://zmk.dev/docs/hardware-integration/new-shield). The keyboard is wireless and runs ZMK software. The included keymap includes two layers a function layer and a QWERTY layer. You can see the keymap visually here.
+
+![Default QWERTY layer](./media/DefaultLayer.png)
+
+![Function layer](./media/FnLayer.png)
+
+
+As you can probably see the keymap is based on a nordic layout with some maybe weird decisions by key spots by me. This is also my first split and ortholinear keyboard so it might take some time for this keymap to be actually good. The clear keys on the function layer are made to pass inputs back to the default layer.There are also two extra layers just made for if people want to create custom layers in [ZMK studio](https://zmk.studio/)
