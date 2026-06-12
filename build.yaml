@@ -17,3 +17,8 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+include:
+  - board: nice_nano_v2
+    shield: nordic1_left
+  - board: nice_nano_v2
+    shield: nordic1_right
