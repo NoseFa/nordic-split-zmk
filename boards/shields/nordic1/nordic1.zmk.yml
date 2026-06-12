@@ -15,8 +15,6 @@ url: https://github.com/NoseFa/splitkb
 features:
   - keys
   - studio  # Remove this line if your keyboard will not support ZMK Studio
-  - Hotswap
-  - Wireless
 
 requires: [pro_micro]
 
