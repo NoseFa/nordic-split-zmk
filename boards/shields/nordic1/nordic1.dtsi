@@ -21,7 +21,7 @@
         // "row2col", change the col-gpios in the _left.overlay and _right.overlay
         // files to (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN) and the row-gpios here to
         // GPIO_ACTIVE_HIGH.
-
+        compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
         wakeup-source;
 
