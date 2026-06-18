@@ -18,3 +18,7 @@ This repo covers the software side of this project. This was created from the [Z
 
 
 As you can probably see the keymap is based on a nordic layout with some maybe weird decisions by key spots by me. This is also my first split and ortholinear keyboard so it might take some time for this keymap to be actually good. The clear keys on the function layer are made to pass inputs back to the default layer.There are also two extra layers just made for if people want to create custom keymaps in [ZMK studio](https://zmk.studio/). If you want to install the software it's available as a .uf2 file in the [Firmware folder](./firmware/). Remember that there are two different files for the controllers. One for the [left](./firmware/nordic1_left-nice_nano_v2-zmk.uf2) and one for the [right](./firmware/nordic1_right-nice_nano_v2-zmk.uf2) halve. Even tho the software is made for a Nice!Nano board it will work with the board in the [BOM.csv](https://github.com/NoseFa/splitkb/blob/main/BOM.csv) of the main project.
+
+## ZMK studio
+
+ZMK studio is a tool provided by ZMK and for which I have added support in the firmware provided. You can use the easy to use GUI to change the keymap. The changes can be made even while the board is still connected to your computer and doesn't require reflashing. I have added 2 extra layers for which you can use for what ever you like. These have been left empty for now and should be configured by what you want. If you want to switch from the nordic keymap thats also made easier by ZMK studio and not having to flash the firmware again.
