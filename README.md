@@ -22,3 +22,8 @@ As you can probably see the keymap is based on a nordic layout with some maybe w
 ## ZMK studio
 
 ZMK studio is a tool provided by ZMK and for which I have added support in the firmware provided. You can use the easy to use GUI to change the keymap. The changes can be made even while the board is still connected to your computer and doesn't require reflashing. I have added 2 extra layers for which you can use for what ever you like. These have been left empty for now and should be configured by what you want. If you want to switch from the nordic keymap thats also made easier by ZMK studio and not having to flash the firmware again.
+
+## Installation / flashing the firmware
+
+For installing you can grab the .uf2 files from the software folder. You can also edit the config files if you want to modify them and make your own .uf2 files. You can enter the flashing mode of the ProMicro by shorting the Rst(Reset) and GND(Ground) pins for 0,5s while connecting to your computer and the controller should show up as a Nice!Nano storgae media device. You can drag and drop in the .uf2 file on it and it should install it. You have seperate firmware files for each side (LeftSide.uf2 and RightSide.uf2) check that you have the correct one before you flash it. The sides have different layouts and settings so this is important. After flashing them they should boot into the ZMK firmware and they should link together automatically through their paring process. See [the ZMK troubleshooting guide](https://zmk.dev/docs/troubleshooting/connection-issues). The keyboard should also become visible as a bluetooth device you can connect to. Keep in mind that only one device will show up and not both halves seperately.
+
